@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: while
-# key: while
 # --
 while ($1) {
   $0

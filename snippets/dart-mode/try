@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: try
-# key: try
 # --
 try {
   $0

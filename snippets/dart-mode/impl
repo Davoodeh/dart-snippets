@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
-# name: impl
-# key: impl
+# name: implements
 # --
 implements ${1:Name}$0

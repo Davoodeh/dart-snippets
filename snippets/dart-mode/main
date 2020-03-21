@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: main
-# key: main
 # group: dart
 # --
 main(List<String> args) {

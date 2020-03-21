@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: test
-# key: test
 # --
 test('$1', () {
   $0

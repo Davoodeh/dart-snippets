@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: StateufulWidget with AnimationController
-# key: stanim
 # group: flutter
 # --
 class $1 extends StatefulWidget {

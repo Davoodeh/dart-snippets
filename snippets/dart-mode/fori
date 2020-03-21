@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: for-in
-# key: fori
 # --
 for (var ${1:item} in ${2:items}) {
   $0

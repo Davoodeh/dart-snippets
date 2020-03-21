@@ -1,7 +1,6 @@
 # -*- mode: snippet -*-
 # contributor: M. Yas. Davoodeh
 # name: class
-# key: class
 # --
 class ${1:Name} {
   $0

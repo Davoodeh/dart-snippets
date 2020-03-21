@@ -26,9 +26,10 @@
 ;;
 ;;; Commentary:
 ;;
-;; This is a collection of Yasnippets for Dart and its popular framework
-;; Flutter. It includes snippets from the VSCode plugin (Dart-Code
-;; <https://github.com/Dart-Code/Dart-Code/>) but is not limited to that.
+;; This is a collection of YASnippets for Dart and its popular framework
+;; Flutter. It also features snippets from the VSCode plugin
+;; (Dart-Code <https://github.com/Dart-Code/Dart-Code/>) and
+;; YASnippet-snippets(<https://github.com/AndreaCrotti/yasnippet-snippets/>)!
 ;;
 ;;; Code:
 (require 'yasnippet)

@@ -3,14 +3,15 @@
 [![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
 
 This is a collection of YASnippets for Dart and its popular framework
-Flutter. It includes snippets from the VSCode plugin (Dart-Code
-<https://github.com/Dart-Code/Dart-Code/>) but is not limited to that.
+Flutter. It also features snippets from the VSCode plugin
+([Dart-Code](https://github.com/Dart-Code/Dart-Code/)) and
+[YASnippet-snippets](https://github.com/AndreaCrotti/yasnippet-snippets/)!
 
 ## Installation
 
 To use these snippets you need to install
-the [Yasnippet](https://github.com/capitaomorte/yasnippet) package. Once you
-have Yasnippet installed, place contents of this repository on your load
+the [YASnippet](https://github.com/capitaomorte/yasnippet) package. Once you
+have YASnippet installed, place contents of this repository on your load
 path, so Emacs can see it and add the following to your configuration file:
 
 ```emacs-lisp

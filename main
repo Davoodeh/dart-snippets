@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: M. Yas. Davoodeh
+# name: main
+# key: main
+# --
+main(List<String> args) {
+  $0
+}

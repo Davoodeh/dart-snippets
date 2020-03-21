@@ -2,6 +2,7 @@
 # contributor: M. Yas. Davoodeh
 # name: StatefulWidget
 # key: stful
+# group: flutter
 # --
 class $1 extends StatefulWidget {
   @override

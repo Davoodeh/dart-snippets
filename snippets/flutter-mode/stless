@@ -2,6 +2,7 @@
 # contributor: M. Yas. Davoodeh
 # name: StatelessWidget
 # key: stless
+# group: flutter
 # --
 class $1 extends StatelessWidget {
   @override

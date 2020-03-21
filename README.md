@@ -23,11 +23,7 @@ To insert a snippet, type its name and press <kbd>↹ Tab</kbd> or
 <kbd>C-i</kbd>.
 
 Also, you can move through the fields pressing <kbd>↹ Tab</kbd> and edit or
-delete them. Some fields, like `:author` try to guess their values.
-
-As a special bonus, there are snippets to insert headers of files that
-contain information about the software license (`gnugpl` and `mitlic`), they
-are smart too.
+delete them -- in case snippet has a default value.
 
 ## Contributions
 
@@ -47,6 +43,13 @@ There are some stylistic conventions:
 
   The first line is needed to activate mode for snippet editing in Emacs,
   Yasnippet ships with it.
+
+* If the snippet works only in Dart or Flutter, declare its group in
+  your preamble by appending such line as below:
+
+  ```
+  # group: dart | flutter
+  ```
 
 * Make sure your files don't have an empty line at the end. This is
   important, because it will be inserted when your snippet is expanded.

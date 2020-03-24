@@ -2,12 +2,26 @@
 
 [![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
 
-This is a collection of YASnippets for Dart and its popular framework
+This is the complete collection of YASnippets for Dart and its popular framework
 Flutter. It also features snippets from the VSCode plugin
 ([Dart-Code](https://github.com/Dart-Code/Dart-Code/)) and
 [YASnippet-snippets](https://github.com/AndreaCrotti/yasnippet-snippets/)!
 
 ## Installation
+
+### Doom Emacs
+
+To install the package on Doom Emacs, all you have to do is to append the lines
+below to your `$DOOMDIR/packages.el` (Default is: `~/.doom.d/packages.el`).
+
+```emacs-lisp
+(package! dart-snippets
+    :recipe (:host github
+                   :repo "MYDavoodeh/dart-snippets"
+                   :files ("*.el" ("snippets" "snippets/*"))))
+```
+
+### Vanilla Emacs
 
 To use these snippets you need to install
 the [YASnippet](https://github.com/capitaomorte/yasnippet) package. Once you
@@ -17,6 +31,7 @@ path, so Emacs can see it and add the following to your configuration file:
 ```emacs-lisp
 (require 'dart-snippets)
 ```
+
 
 ## Usage
 
@@ -56,6 +71,29 @@ There are some stylistic conventions:
   important, because it will be inserted when your snippet is expanded.
   `snippet-mode` takes care of this, setting `require-final-newline` to
   `nil`, just make sure you haven't put it there manually.
+
+## Side notes
+
+### MELPA?
+
+The package is intended to be used with [Doom
+Emacs](https://github.com/hlissner/doom-emacs). Therefore, I don't plan to merge
+it with
+[YASnippet-snippets](https://github.com/AndreaCrotti/yasnippet-snippets/) nor to
+add it to MELPA.
+
+Honestly, even if I wanted I cannot add it to MELPA, since the idea of
+Dart-Snippets is not so original. Also, I didn't want to add them to
+YASnippet-snippets, because Doom uses
+[Doom-snippets](https://github.com/hlissner/doom-snippets).
+
+### Other useful packages
+
+You may also find [Dart-Mode](https://github.com/bradyt/dart-mode) and
+[Flutter.el/-Mode](https://github.com/amake/flutter.el) packages useful.
+
+You can install all of them as a Doom Module as addressed in this
+[PR](https://github.com/hlissner/doom-emacs/pull/2729).
 
 ## License
 

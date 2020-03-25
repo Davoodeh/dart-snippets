@@ -9,18 +9,6 @@ Flutter. It also features snippets from the VSCode plugin
 
 ## Installation
 
-### Doom Emacs
-
-To install the package on Doom Emacs, all you have to do is to append the lines
-below to your `$DOOMDIR/packages.el` (Default is: `~/.doom.d/packages.el`).
-
-```emacs-lisp
-(package! dart-snippets
-    :recipe (:host github
-                   :repo "MYDavoodeh/dart-snippets"
-                   :files ("*.el" ("snippets" "snippets/*"))))
-```
-
 ### Vanilla Emacs
 
 To use these snippets you need to install
@@ -32,6 +20,21 @@ path, so Emacs can see it and add the following to your configuration file:
 (require 'dart-snippets)
 ```
 
+### Doom Emacs
+
+*As of March 26, these snippets are a part of
+[Doom-snippets](https://github.com/hlissner/doom-snippets) package. If you are
+using it, just update your Doom with `doom upgrade` and you are good to go.*
+
+To install the package on Doom Emacs, all you have to do is to append the lines
+below to your `$DOOMDIR/packages.el` (Default is: `~/.doom.d/packages.el`).
+
+```emacs-lisp
+(package! dart-snippets
+    :recipe (:host github
+                   :repo "MYDavoodeh/dart-snippets"
+                   :files ("*.el" ("snippets" "snippets/*"))))
+```
 
 ## Usage
 

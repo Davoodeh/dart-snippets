@@ -75,7 +75,7 @@ There are some stylistic conventions:
   `snippet-mode` takes care of this, setting `require-final-newline` to
   `nil`, just make sure you haven't put it there manually.
 
-## Side notes
+## Notes
 
 ### MELPA?
 
@@ -95,8 +95,8 @@ YASnippet-snippets, because Doom uses
 You may also find [Dart-Mode](https://github.com/bradyt/dart-mode) and
 [Flutter.el/-Mode](https://github.com/amake/flutter.el) packages useful.
 
-You can install all of them as a Doom Module as addressed in this
-[PR](https://github.com/hlissner/doom-emacs/pull/2729).
+You can install the packages above just by uncommenting/adding `:lang (dart
++flutter)` in your `$DOOMDIR/init.el` (Default is: `~/.doom.d/init.el`).
 
 ## License
 

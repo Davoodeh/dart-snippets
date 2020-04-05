@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# contributor: M. Safarian
+# name: list
+# --
+var ${1:Name} = new List(${2:Size})
